@@ -1,7 +1,7 @@
 # UCSD-Research
 Documentation for the electrogram signal quality quantification project with UCSD and Stanford
 
-![fig1](fig1.png)
+![Fig1](Fig1.png)
 
 **newProgramMax64Traces.m Documentation (aka ‘The Quality Program’)**
 
