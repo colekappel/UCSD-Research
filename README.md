@@ -1,5 +1,6 @@
 # UCSD-Research
--Determine Signal Quality of electrograms, plot ROC Curves, Histograms, Colormaps and save important variables like t test results and AUC
+Documentation for the electrogram signal quality quantification project with UCSD and Stanford
+
 
 **newProgramMax64Traces.m Documentation (aka ‘The Quality Program’)**
 
