@@ -1,7 +1,7 @@
 # UCSD-Research
 -Determine Signal Quality of electrograms, plot ROC Curves, Histograms, Colormaps and save important variables like t test results and AUC
 
-***************newProgramMax64Traces.m Documentation (aka ‘The Quality Program’)************************************
+**newProgramMax64Traces.m Documentation (aka ‘The Quality Program’)**
 
 Saving Results
 •	locResults – the folder within the folder that contains newProgramMax64Traces.m that holds all of the quality results. This is the only thing you’ll need to change on the program with regards to saving results.
@@ -24,7 +24,7 @@ Patient Data Source
 Run Time
 Program run time is about 0.74 (min/patient)
 
-***********************QProgram_Period.m Documentation**************************************
+**QProgram_Period.m Documentation**
 
 -	Program to look at quality, where quality is defined as longer period = higher quality
 The program saves color maps, histograms, 2-tailed t-test p values, and ROC Curves.
@@ -35,5 +35,3 @@ The program saves color maps, histograms, 2-tailed t-test p values, and ROC Curv
 -	The variable, ‘locResults’ is the name of the result folder which should inside it contain three folders named: ‘VIP Vars Q Program’ , ‘Histograms’, and ‘ROC Curves’ – the data will can be found in these locations after the program runs.
 -	Inside ‘VIP Vars Q Program’, ‘pVal’ is the 2 tailed t test p value, ‘averageTPer’ is the average term period, ‘averageNTPer’ is the average non term period, ‘AUC’ is the area under the ROC curve and ‘OPTROCPT’ is the optimal operating point of the ROC curve
 
-
-![image](https://user-images.githubusercontent.com/62924681/147837682-98d2094b-dbf6-4178-b46a-1a1672d4ac0c.png)
