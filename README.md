@@ -37,3 +37,4 @@ The program saves color maps, histograms, 2-tailed t-test p values, and ROC Curv
 -	The variable, ‘locResults’ is the name of the result folder which should inside it contain three folders named: ‘VIP Vars Q Program’ , ‘Histograms’, and ‘ROC Curves’ – the data will can be found in these locations after the program runs.
 -	Inside ‘VIP Vars Q Program’, ‘pVal’ is the 2 tailed t test p value, ‘averageTPer’ is the average term period, ‘averageNTPer’ is the average non term period, ‘AUC’ is the area under the ROC curve and ‘OPTROCPT’ is the optimal operating point of the ROC curve
 
+[Uploading QualityResults_n60.pdf…]()
