@@ -39,7 +39,7 @@ The program saves color maps, histograms, 2-tailed t-test p values, and ROC Curv
 
 ![Fig2](UCSD_Github_Images/HighQ_Colormap.jpeg)
 
-**High quality color map. The results from the program indicate that patients with higher quality will be more likely to have a successful ablation of atrial fibrillation. **
+**High quality color map. The results from the program indicate that patients with higher quality will be more likely to have a successful ablation of atrial fibrillation.**
 
 ![Fig3](UCSD_Github_Images/LowQ_Colormap.jpeg)
 
