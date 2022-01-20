@@ -37,3 +37,10 @@ The program saves color maps, histograms, 2-tailed t-test p values, and ROC Curv
 -	The variable, ‘locResults’ is the name of the result folder which should inside it contain three folders named: ‘VIP Vars Q Program’ , ‘Histograms’, and ‘ROC Curves’ – the data will can be found in these locations after the program runs.
 -	Inside ‘VIP Vars Q Program’, ‘pVal’ is the 2 tailed t test p value, ‘averageTPer’ is the average term period, ‘averageNTPer’ is the average non term period, ‘AUC’ is the area under the ROC curve and ‘OPTROCPT’ is the optimal operating point of the ROC curve
 
+![Fig2](HighQ_Colormap/HighQ_Colormap)
+
+**High quality color map. The results from the program indicate that patients with higher quality will be more likely to have a successful ablation of atrial fibrillation. **
+
+![Fig3](HighQ_Colormap/LowQ_Colormap)
+
+**Low quality color map.**
