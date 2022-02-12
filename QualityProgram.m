@@ -1,5 +1,4 @@
-%The program has been corrected so it uses autocorrelation to find the
-%period of traces. Last Modified: June, 1 2021
+%Last Modified: June, 1 2021
 %The program saves color maps, histograms,2-tailed t-test p values, a
 %spreadsheet of average quality per patient, ROC Curves
 
@@ -12,7 +11,6 @@ TermPatients = ["S-0003", "S-0010","S-0011","S-0012",...
     "S-0080","S-0235","S-0312","S-0334","S-0341","S-0423",...
     "S-0427","S-0013","S-0024","S-0091","S-0106","S-0111", "S-0137","S-0154",...
     "S-0159","S-0162","S-0168","S-0183","S-0193"]; %modify this to hold all of your term patients -
-%,"S-0049" is left out of term pts. for now due to missing epoch
 
 NonTermPatients = ["S-0171", "S-0275","S-0302","S-0323",...
     "S-0325","S-0338","S-0342","S-0346","S-0352","S-0355",...
@@ -121,7 +119,7 @@ else
     
     %% Continue code for analyzing quality
 
-%Create a dv/dt array:
+%Create a dv/dt array of the electrogram:
 dvDtArray = zeros(1, length(vF)-2);
 x = zeros(1, length(vF)-2);
 for i = 2:(length(vF)-1)
@@ -131,9 +129,8 @@ for i = 2:(length(vF)-1)
     x(i) = i;
 end
 
-%Now we want to find the peaks in each interval of the trace and create an
-%array of first largest peak divided by second largest peak (lets start
-%with max points first then do min points
+%Code to find quality:
+
 msSearched = (length(dvDtArray)-Period); %Search less amount of time to only look at full periods
 numIntervals = floor(msSearched/Period); %Truncate the number so the for b loop doesn't run too many times
 
@@ -204,6 +201,8 @@ end
 qMAMAvg(y)=mean(qMax);
 qMIMAvg(y)=mean(qMin);
 qAMMAvg(y)=mean(qAbs);
+
+%End of code to find quality of the electrograms
 
 %Make color maps for each patient:
 
@@ -304,7 +303,7 @@ title('Histogram for Average Quality Per Patient Abs Method (AMM)');
 xlabel('Average Quality');
 ylabel('Number of Patients');
 hold on
-%figure; 
+
 b = histogram(qAMMAvgNT);
 title('Histogram for Average Quality Per Patient Abs. Method (AMM)','FontSize',36);
 xlabel('Average Quality','FontSize',24);
@@ -317,7 +316,7 @@ mam = figure; c = histogram(qMAMAvgT);
 title('Histogram for Average Quality Per Patient Max Method (MAM)','FontSize',36);
 xlabel('Average Quality','FontSize',24);
 ylabel('Number of Patients','FontSize',24);
-%figure; 
+
 hold on
 d = histogram(qMAMAvgNT);
 title('Histogram for Average Quality Per Patient Max Method (MAM)','FontSize',36);
@@ -332,7 +331,7 @@ mim = figure; e = histogram(qMIMAvgT);
 title('Histogram for Average Quality Per Patient Min Method (MIM)','FontSize',36);
 xlabel('Average Quality','FontSize',24);
 ylabel('Number of Patients','FontSize',24);
-%figure; 
+
 hold on
 f = histogram(qMIMAvgNT);
 title('Histogram for Average Quality Per Patient Min Method (MIM)','FontSize',36);
