@@ -3,7 +3,7 @@ Code for the electrogram signal quality project I completed with [Rappel Laborat
 
 ![Fig1](UCSD_Github_Images/Fig1.png)
 
-**QualityProgram.m Documentation**
+**QualityProgram Documentation**
 
 Saving Results
 •	locResults – the folder within the folder that contains newProgramMax64Traces.m that holds all of the quality results. This is the only thing you’ll need to change on the program with regards to saving results.
@@ -26,7 +26,7 @@ Patient Data Source
 Run Time
 Program run time is about 0.74 (min/patient)
 
-**QProgram_Period.m Documentation**
+**QProgram_Period Documentation**
 
 -	Program to look at quality, where quality is defined as longer period = higher quality
 The program saves color maps, histograms, 2-tailed t-test p values, and ROC Curves.
