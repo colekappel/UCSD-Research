@@ -1,5 +1,5 @@
 # UCSD-Research
-Documentation for the electrogram signal quality quantification project with UCSD and Stanford
+Documentation for the electrogram signal quality quantification project I completed with [Rappel Laboratory at UCSD](https://rappel.ucsd.edu/) and [the Computational Arrhythmia Research Laboratory Stanford](http://web.stanford.edu/group/narayanlab/cgi-bin/wordpress/#:~:text=Welcome%20to%20the%20Computational%20Arrhythmia,clarify%20mechanisms%20and%20improve%20therapy.)
 
 ![Fig1](UCSD_Github_Images/Fig1.png)
 
