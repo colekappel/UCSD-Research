@@ -3,7 +3,7 @@ Code for the electrogram signal quality project I completed with [Rappel Laborat
 
 ![Fig1](UCSD_Github_Images/Fig1.png)
 
-**newProgramMax64Traces.m Documentation (aka ‘The Quality Program’)**
+**QualityProgram.m Documentation**
 
 Saving Results
 •	locResults – the folder within the folder that contains newProgramMax64Traces.m that holds all of the quality results. This is the only thing you’ll need to change on the program with regards to saving results.
