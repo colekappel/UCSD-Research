@@ -7,7 +7,7 @@ Three different calculus based methods are used to compute the quality of electr
 
 
 ![Fig2](UCSD_Github_Images/HighQ_Colormap.jpeg)
-**Example of a high quality color map. Red areas indicate regions which should be targetted for ablation. Average quality is close to 1. **
+**Example of a high quality color map. Red areas indicate regions which should be targetted for ablation. Average quality is close to 1.**
 
 ![Fig3](UCSD_Github_Images/LowQ_Colormap.jpeg)
 **Example of a low quality color map. Average quality is around 0.5 indicating poor electrogram quality.**
