@@ -1,9 +1,9 @@
 # UCSD-Research
-Code for the electrogram signal quality project I completed with [Rappel Laboratory at UCSD](https://rappel.ucsd.edu/) and [the Computational Arrhythmia Research Laboratory Stanford](http://web.stanford.edu/group/narayanlab/cgi-bin/wordpress/#:~:text=Welcome%20to%20the%20Computational%20Arrhythmia,clarify%20mechanisms%20and%20improve%20therapy.) The goal of the project was to improve ablation techniques in cardiac arrhythmia patients by developing an algorithm in MATLAB to quantify the quality of egms of patients.
+This repository contains the code that I wrote for the electrogram signal quality project I completed with [Rappel Laboratory at UCSD](https://rappel.ucsd.edu/) and [the Computational Arrhythmia Research Laboratory Stanford](http://web.stanford.edu/group/narayanlab/cgi-bin/wordpress/#:~:text=Welcome%20to%20the%20Computational%20Arrhythmia,clarify%20mechanisms%20and%20improve%20therapy.) The goal of the project was to improve ablation techniques in cardiac arrhythmia patients by developing an algorithm in MATLAB to quantify the quality of egms of patients. The software programs contained here were coded entirely by me in MATLAB.
 
 ![Fig1](UCSD_Github_Images/Fig1.png)
 
-**QualityProgram Documentation**
+**The Quality Program (QualityProgram.m)**
 
 Saving Results
 •	locResults – the folder within the folder that contains newProgramMax64Traces.m that holds all of the quality results. This is the only thing you’ll need to change on the program with regards to saving results.
@@ -25,19 +25,6 @@ Patient Data Source
 
 Run Time
 Program run time is about 0.74 (min/patient)
-
-**QProgram_Period Documentation**
-
--	Program to look at quality, where quality is defined as longer period = higher quality
-The program saves color maps, histograms, 2-tailed t-test p values, and ROC Curves.
--	One histogram displays average period per patient and the other displays period for every single egm. 
--	For the ROC curve, the average period for each patient was normalized by dividing by the maximum average period out of all the patients. So “Quality” then ranges from 0 to 1 with 1 corresponding to the highest quality and 0 corresponding to the lowest quality.
--	Fast runtime. 
--	The variable, ‘locData’ is the same as it is in ‘newProgramMax64Traces.m’
--	The variable, ‘locResults’ is the name of the result folder which should inside it contain three folders named: ‘VIP Vars Q Program’ , ‘Histograms’, and ‘ROC Curves’ – the data will can be found in these locations after the program runs.
--	Inside ‘VIP Vars Q Program’, ‘pVal’ is the 2 tailed t test p value, ‘averageTPer’ is the average term period, ‘averageNTPer’ is the average non term period, ‘AUC’ is the area under the ROC curve and ‘OPTROCPT’ is the optimal operating point of the ROC curve
-
-![Fig2](UCSD_Github_Images/HighQ_Colormap.jpeg)
 
 **High quality color map. The results from the program indicate that patients with higher quality will be more likely to have a successful ablation of atrial fibrillation.**
 
