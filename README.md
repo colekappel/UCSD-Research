@@ -5,9 +5,11 @@ This repository contains the code that I wrote for the electrogram signal qualit
 
 Three different calculus based methods are used to compute the quality of electrograms, MAM, MIM and AMM. MAM looks at the positive derivative of the electrogram, MIM looks at the negative derivative of the electrogram and AMM simply takes on whichever value is larger- MIM or MAM. The method uses the concept that a high quality electrogram will have either a large periodic positive slope or a large periodic negative slope and relatively small slopes elsewhere. The software program creates heat maps to visualize egm quality in specific locations of the heart. Additionally, ROC curves and histograms are computed to visualize how well the program can differentiate between low quality and high quality electrograms. After rigorous testing of the program, successful results were found in an analysis of 60 patient electrograms (See QualityResults_n60.pdf for a summary of these results).
 
+![Fig3](UCSD_Github_Images/High and Low Quality Examples.png)
 
-![Fig2](UCSD_Github_Images/HighQ_Colormap.jpeg)
+
+![Fig4](UCSD_Github_Images/HighQ_Colormap.jpeg)
 **Example of a high quality color map. Red areas indicate regions which should be targetted for ablation. Average quality is close to 1.**
 
-![Fig3](UCSD_Github_Images/LowQ_Colormap.jpeg)
+![Fig5](UCSD_Github_Images/LowQ_Colormap.jpeg)
 **Example of a low quality color map. Average quality is around 0.5 indicating poor electrogram quality.**
