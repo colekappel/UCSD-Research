@@ -20,4 +20,5 @@ Three different calculus based methods are used to compute the quality of electr
 ### Good Results Found After Testing the Method on 60 Patients
 
 ![Fig6](UCSD_Github_Images/GoodResults_ROC.png)
-![Fig6](UCSD_Github_Images/GoodResults_Histogram.png)
+![Fig7](UCSD_Github_Images/GoodResults_Metrics.png)
+![Fig8](UCSD_Github_Images/GoodResults_Histogram.png)
