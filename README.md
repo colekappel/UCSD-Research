@@ -7,6 +7,7 @@ Three different calculus based methods are used to compute the quality of electr
 
 ![Fig3](UCSD_Github_Images/High_and_Low_Quality_Examples.png)
 
+### Color Maps
 
 ![Fig4](UCSD_Github_Images/HighQ_Colormap.jpeg)
 **Example of a high quality color map. Red areas indicate regions which should be targetted for ablation. Average quality is close to 1.**
