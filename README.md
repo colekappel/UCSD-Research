@@ -6,14 +6,14 @@ This repository contains the code that I wrote for the electrogram signal qualit
 Three different calculus based methods are used to compute the quality of electrograms, MAM, MIM and AMM. MAM looks at the positive derivative of the electrogram, MIM looks at the negative derivative of the electrogram and AMM simply takes on whichever quality value is larger- MIM or MAM. The method uses the concept that a high quality electrogram will have either a large periodic positive slope or a large periodic negative slope and relatively small slopes elsewhere. The software program creates heat maps to visualize egm quality in specific locations of the heart. Additionally, ROC curves and histograms are computed to visualize how well the program can differentiate between low quality and high quality electrograms. After rigorous testing of the program, successful results were found in an analysis of 60 patient electrograms (See QualityResults_n60.pdf for a summary of these results).
 
 ### How the Program Works
-![HIW1](UCSD_Github_Images/Fig1.png)
-![HIW2](UCSD_Github_Images/Fig1.png)
-![HIW3](UCSD_Github_Images/Fig1.png)
-![HIW4](UCSD_Github_Images/Fig1.png)
-![HIW5](UCSD_Github_Images/Fig1.png)
-![HIW6](UCSD_Github_Images/Fig1.png)
-![HIW7](UCSD_Github_Images/Fig1.png)
-![HIW8](UCSD_Github_Images/Fig1.png)
+![HIW1](UCSD_Github_Images/HowItWorks1.png)
+![HIW2](UCSD_Github_Images/HowItWorks2.png)
+![HIW3](UCSD_Github_Images/HowItWorks3.png)
+![HIW4](UCSD_Github_Images/HowItWorks4.png)
+![HIW5](UCSD_Github_Images/HowItWorks5.png)
+![HIW6](UCSD_Github_Images/HowItWorks6.png)
+![HIW7](UCSD_Github_Images/HowItWorks7.png)
+![HIW8](UCSD_Github_Images/HowItWorks8.png)
 
 ### Example of High Quality vs Low Quality Electrograms
 
