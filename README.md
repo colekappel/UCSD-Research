@@ -11,6 +11,7 @@ Three different calculus based methods are used to compute the quality of electr
 **The EGM shown above is a great example of an electrogram that would be marked as high quality by my method. The algorithm will mark this as high quality since there are large periodic negative slopes.**
 
 ![Fig3](UCSD_Github_Images/High_and_Low_Quality_Examples.png)
+**Figure 2 will be marked as low quality since there are not large periodic negative or positive slopes.**
 
 ### Example of High Quality vs Low Quality Color Maps
 
